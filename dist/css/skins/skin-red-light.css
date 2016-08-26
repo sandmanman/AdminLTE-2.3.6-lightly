@@ -3,7 +3,7 @@
  * ---------
  */
 .skin-red-light .main-header .navbar {
-  background-color: #dd4b39;
+  background-color: #ef5350;
 }
 .skin-red-light .main-header .navbar .nav > li > a {
   color: #ffffff;
@@ -29,7 +29,7 @@
   color: #fff;
 }
 .skin-red-light .main-header .navbar .sidebar-toggle:hover {
-  background-color: #d73925;
+  background-color: #ed3c39;
 }
 @media (max-width: 767px) {
   .skin-red-light .main-header .navbar .dropdown-menu li.divider {
@@ -39,19 +39,19 @@
     color: #fff;
   }
   .skin-red-light .main-header .navbar .dropdown-menu li a:hover {
-    background: #d73925;
+    background: #ed3c39;
   }
 }
 .skin-red-light .main-header .logo {
-  background-color: #dd4b39;
+  background-color: #ef5350;
   color: #ffffff;
   border-bottom: 0 solid transparent;
 }
 .skin-red-light .main-header .logo:hover {
-  background-color: #dc4735;
+  background-color: #ef4e4b;
 }
 .skin-red-light .main-header li.user-header {
-  background-color: #dd4b39;
+  background-color: #ef5350;
 }
 .skin-red-light .content-header {
   background: transparent;
@@ -63,7 +63,7 @@
 }
 .skin-red-light .content-wrapper,
 .skin-red-light .main-footer {
-  border-left: 1px solid #d2d6de;
+  border-left: 1px solid #d1d5d8;
 }
 .skin-red-light .user-panel > .info,
 .skin-red-light .user-panel > .info > a {
@@ -88,7 +88,7 @@
   background: #f4f4f5;
 }
 .skin-red-light .sidebar-menu > li.active {
-  border-left-color: #dd4b39;
+  border-left-color: #ef5350;
 }
 .skin-red-light .sidebar-menu > li.active > a {
   font-weight: 600;
@@ -114,7 +114,7 @@
 }
 .skin-red-light .sidebar-form {
   border-radius: 3px;
-  border: 1px solid #d2d6de;
+  border: 1px solid #d1d5d8;
   margin: 10px 10px;
 }
 .skin-red-light .sidebar-form input[type="text"],
@@ -148,6 +148,6 @@
 }
 @media (min-width: 768px) {
   .skin-red-light.sidebar-mini.sidebar-collapse .sidebar-menu > li > .treeview-menu {
-    border-left: 1px solid #d2d6de;
+    border-left: 1px solid #d1d5d8;
   }
 }
