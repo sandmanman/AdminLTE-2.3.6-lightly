@@ -9,6 +9,15 @@
  * Core: General Layout Style
  * -------------------------
  */
+/* web font */
+@font-face {
+  font-family: 'webfont';
+  src: url('//at.alicdn.com/t/5tko79pa8k4bzkt9.eot');
+  src: url('//at.alicdn.com/t/5tko79pa8k4bzkt9.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('//at.alicdn.com/t/5tko79pa8k4bzkt9.woff') format('woff'), /* chrome、firefox */ url('//at.alicdn.com/t/5tko79pa8k4bzkt9.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('//at.alicdn.com/t/5tko79pa8k4bzkt9.svg#NotoSansHans-DemiLight') format('svg');
+  
+  /* IE9 */
+  /* iOS 4.1- */
+}
 html,
 body {
   min-height: 100%;
@@ -101,7 +110,8 @@ body {
 .main-footer {
   background: #fff;
   padding: 15px;
-  color: #444;
+  color: #666;
+  font-size: 12px;
   border-top: 1px solid #d1d5d8;
 }
 /* Fixed layout */
@@ -927,7 +937,7 @@ a:focus {
 /*Dropdowns in general*/
 .dropdown-menu {
   border-color: #ccc;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 .dropdown-menu > li > a {
   color: #777;
@@ -1756,7 +1766,7 @@ body and footer .box-header:after,
 .box-header > .ion,
 .box-header .box-title {
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
   line-height: 1;
 }
@@ -2487,7 +2497,7 @@ body and footer .box-header:after,
 }
 .nav-tabs-custom > .nav-tabs {
   margin: 0;
-  border-bottom-color: #ddd;
+  border-bottom-color: #e8e8e8;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
@@ -2554,7 +2564,7 @@ body and footer .box-header:after,
 .nav-tabs-custom > .nav-tabs > li.header {
   line-height: 35px;
   padding: 0 15px;
-  font-size: 18px;
+  font-size: 16px;
   color: #444;
 }
 .nav-tabs-custom > .nav-tabs > li.header > .fa,
@@ -2595,9 +2605,11 @@ body and footer .box-header:after,
 .pagination > li > a {
   background: #fafafa;
   color: #666;
-}
-.pagination.pagination-flat > li > a {
   border-radius: 0 !important;
+}
+.pagination .active > a {
+  background-color: #228bdf;
+  border-color: #228bdf;
 }
 /*
  * Component: Products List
@@ -2665,7 +2677,8 @@ body and footer .box-header:after,
   border-top: 1px solid #e8e8e8;
 }
 .table > thead > tr > th {
-  border-bottom: 2px solid #e8e8e8;
+  background-color: #eee;
+  border-bottom: 1px solid #e8e8e8;
 }
 .table tr td .progress {
   margin-top: 5px;
@@ -2683,7 +2696,7 @@ body and footer .box-header:after,
 }
 .table-bordered > thead > tr > th,
 .table-bordered > thead > tr > td {
-  border-bottom-width: 2px;
+  border-bottom-width: 1px;
 }
 .table.no-border,
 .table.no-border td,
