@@ -65,16 +65,18 @@
 .skin-blue .user-panel > .info > a {
   color: #fff;
 }
-.skin-blue .sidebar-menu > li.header {
+.skin-blue .sidebar-menu > li {
+  border-left: 3px solid transparent;
+}
+.skin-blue .sidebar-menu > li.header,
+.skin-blue .sidebar-menu > li.header:hover {
   color: #4f6875;
   background: #1e272c;
   border-bottom: 1px solid #161c20;
+  border-left: 3px solid transparent !important;
 }
-.skin-blue .sidebar-menu > li > a {
-  border-left: 3px solid transparent;
-}
-.skin-blue .sidebar-menu > li:hover > a,
-.skin-blue .sidebar-menu > li.active > a {
+.skin-blue .sidebar-menu > li:hover,
+.skin-blue .sidebar-menu > li.active {
   color: #ffffff;
   background: #1e272c;
   border-left-color: #3498db;
@@ -97,7 +99,6 @@
   color: #ffffff;
 }
 .skin-blue .sidebar-form {
-  border-radius: 3px;
   border: 1px solid #3b4d56;
   margin: 10px 10px;
 }
