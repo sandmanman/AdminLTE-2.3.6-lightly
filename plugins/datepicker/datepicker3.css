@@ -118,6 +118,7 @@
     width: 30px;
     height: 30px;
     border: none;
+    background-color: transparent;
 }
 
 .table-striped .datepicker table tr td,
@@ -759,14 +760,6 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
     background-color: #ddd;
 }
 
-.datepicker thead tr:first-child th {
-    color: #fff;
-    background-color: #228bdf;
-}
-.datepicker thead tr:first-child th:hover {
-    background-color: #1c78c1;
-}
-
 .datepicker .cw {
     font-size: 12px;
     width: 12px;
@@ -837,7 +830,13 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
     font-size: 13px;
     line-height: 1.428571429;
 }
-
+.datepicker.dropdown-menu thead tr:first-child th {
+    color: #fff;
+    background-color: #228bdf;
+}
+.datepicker.dropdown-menu thead tr:first-child th:hover {
+    background-color: #1c78c1;
+}
 .datepicker.dropdown-menu th,
 .datepicker.dropdown-menu td {
     padding: 7px 9px;
