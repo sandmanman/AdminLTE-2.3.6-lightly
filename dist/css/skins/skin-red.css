@@ -65,9 +65,6 @@
 .skin-red .user-panel > .info > a {
   color: #fff;
 }
-.skin-red .sidebar-menu > li {
-  border-left: 3px solid transparent;
-}
 .skin-red .sidebar-menu > li.header,
 .skin-red .sidebar-menu > li.header:hover {
   color: #4f6875;
@@ -75,8 +72,11 @@
   border-bottom: 1px solid #161c20;
   border-left: 3px solid transparent !important;
 }
-.skin-red .sidebar-menu > li:hover,
-.skin-red .sidebar-menu > li.active {
+.skin-red .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+.skin-red .sidebar-menu > li > a:hover,
+.skin-red .sidebar-menu > li.active > a {
   color: #ffffff;
   background: #1e272c;
   border-left-color: #ef5350;

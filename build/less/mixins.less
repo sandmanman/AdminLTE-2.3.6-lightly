@@ -140,7 +140,7 @@
 
     //Sidebar Menu. First level links
     .sidebar-menu > li {
-        border-left: 3px solid transparent;
+        //border-left: 3px solid transparent;
 
         //Section Headning
         &.header,
@@ -152,13 +152,13 @@
         }
 
         //links
-        // > a {
-        //     border-left: 3px solid transparent;
-        // }
+        > a {
+            border-left: 3px solid transparent;
+        }
         
         //Hover and active states
-        &:hover,
-        &.active {
+        > a:hover,
+        &.active > a {
             color: @sidebar-dark-hover-color;
             background: @sidebar-dark-hover-bg;
             border-left-color: @link-hover-border-color;
@@ -262,7 +262,7 @@
     //Sidebar Menu. First level links
     .sidebar-menu > li {
         .transition(border-left-color .3s ease);
-        border-left: 3px solid transparent;
+        //border-left: 3px solid transparent;
 
         //Section Headning
         &.header,
@@ -273,12 +273,12 @@
         }
 
         //links
-        // > a {
-        //     border-left: 3px solid transparent;
-        // }
+        > a {
+            border-left: 3px solid transparent;
+        }
 
         //Hover and active states
-        &:hover,
+        >a:hover,
         &.active > a {
             color: @sidebar-light-hover-color;
             background: @sidebar-light-hover-bg;
@@ -288,7 +288,7 @@
             border-left-color: @icon-active-color;
 
             > a {
-                font-weight: 700;
+                font-weight: 600;
             }
 
         }

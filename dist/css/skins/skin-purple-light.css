@@ -73,7 +73,6 @@
   -webkit-transition: border-left-color 0.3s ease;
   -o-transition: border-left-color 0.3s ease;
   transition: border-left-color 0.3s ease;
-  border-left: 3px solid transparent;
 }
 .skin-purple-light .sidebar-menu > li.header,
 .skin-purple-light .sidebar-menu > li.header:hover {
@@ -81,7 +80,10 @@
   background: #f9fafc;
   border-left: 3px solid transparent !important;
 }
-.skin-purple-light .sidebar-menu > li:hover,
+.skin-purple-light .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+.skin-purple-light .sidebar-menu > li > a:hover,
 .skin-purple-light .sidebar-menu > li.active > a {
   color: #000000;
   background: #f4f4f5;
@@ -90,7 +92,7 @@
   border-left-color: #7266ba;
 }
 .skin-purple-light .sidebar-menu > li.active > a {
-  font-weight: 700;
+  font-weight: 600;
 }
 .skin-purple-light .sidebar-menu > li > .treeview-menu {
   background: #f4f4f5;
