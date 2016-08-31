@@ -1573,7 +1573,8 @@ a:focus {
 .box.box-warning,
 .box.box-success,
 .box.box-default {
-  border-top: 3px solid #cccccc;
+  border-top-style: solid;
+  border-top-width: 3px;
 }
 .box.box-primary {
   border-top-color: #3498db;
