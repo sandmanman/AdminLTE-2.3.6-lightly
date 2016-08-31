@@ -1563,10 +1563,17 @@ a:focus {
   position: relative;
   border-radius: 0;
   background: #ffffff;
-  border-top: 0px solid #cccccc;
   margin-bottom: 20px;
   width: 100%;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.box.box-primary,
+.box.box-info,
+.box.box-danger,
+.box.box-warning,
+.box.box-success,
+.box.box-default {
+  border-top: 3px solid #cccccc;
 }
 .box.box-primary {
   border-top-color: #3498db;
