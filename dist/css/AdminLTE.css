@@ -541,7 +541,6 @@ a:focus {
 .sidebar-menu > li > a > .glyphicon,
 .sidebar-menu > li > a > .ion {
   width: 20px;
-  text-align: center;
 }
 .sidebar-menu > li .label,
 .sidebar-menu > li .badge {

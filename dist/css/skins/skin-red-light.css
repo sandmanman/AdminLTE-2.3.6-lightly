@@ -74,16 +74,15 @@
   -o-transition: border-left-color 0.3s ease;
   transition: border-left-color 0.3s ease;
 }
-.skin-red-light .sidebar-menu > li.header,
-.skin-red-light .sidebar-menu > li.header:hover {
+.skin-red-light .sidebar-menu > li.header {
   color: #848484;
   background: #f9fafc;
-  border-left: 3px solid transparent !important;
 }
 .skin-red-light .sidebar-menu > li > a {
   border-left: 3px solid transparent;
+  font-weight: 600;
 }
-.skin-red-light .sidebar-menu > li > a:hover,
+.skin-red-light .sidebar-menu > li:hover > a,
 .skin-red-light .sidebar-menu > li.active > a {
   color: #000000;
   background: #f4f4f5;

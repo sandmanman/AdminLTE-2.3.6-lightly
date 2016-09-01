@@ -85,17 +85,14 @@
 .skin-black .user-panel > .info > a {
   color: #fff;
 }
-.skin-black .sidebar-menu > li.header,
-.skin-black .sidebar-menu > li.header:hover {
+.skin-black .sidebar-menu > li.header {
   color: #4f6875;
   background: #1e272c;
-  border-bottom: 1px solid #161c20;
-  border-left: 3px solid transparent !important;
 }
 .skin-black .sidebar-menu > li > a {
   border-left: 3px solid transparent;
 }
-.skin-black .sidebar-menu > li > a:hover,
+.skin-black .sidebar-menu > li:hover > a,
 .skin-black .sidebar-menu > li.active > a {
   color: #ffffff;
   background: #1e272c;
@@ -112,13 +109,14 @@
   text-decoration: none;
 }
 .skin-black .treeview-menu > li > a {
-  color: #abb1b7;
+  color: #7592a1;
 }
 .skin-black .treeview-menu > li.active > a,
 .skin-black .treeview-menu > li > a:hover {
   color: #ffffff;
 }
 .skin-black .sidebar-form {
+  border-radius: 3px;
   border: 1px solid #3b4d56;
   margin: 10px 10px;
 }

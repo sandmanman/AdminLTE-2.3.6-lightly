@@ -65,17 +65,14 @@
 .skin-purple .user-panel > .info > a {
   color: #fff;
 }
-.skin-purple .sidebar-menu > li.header,
-.skin-purple .sidebar-menu > li.header:hover {
+.skin-purple .sidebar-menu > li.header {
   color: #4f6875;
   background: #1e272c;
-  border-bottom: 1px solid #161c20;
-  border-left: 3px solid transparent !important;
 }
 .skin-purple .sidebar-menu > li > a {
   border-left: 3px solid transparent;
 }
-.skin-purple .sidebar-menu > li > a:hover,
+.skin-purple .sidebar-menu > li:hover > a,
 .skin-purple .sidebar-menu > li.active > a {
   color: #ffffff;
   background: #1e272c;
@@ -92,13 +89,14 @@
   text-decoration: none;
 }
 .skin-purple .treeview-menu > li > a {
-  color: #abb1b7;
+  color: #7592a1;
 }
 .skin-purple .treeview-menu > li.active > a,
 .skin-purple .treeview-menu > li > a:hover {
   color: #ffffff;
 }
 .skin-purple .sidebar-form {
+  border-radius: 3px;
   border: 1px solid #3b4d56;
   margin: 10px 10px;
 }

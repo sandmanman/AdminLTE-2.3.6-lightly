@@ -94,16 +94,15 @@
   -o-transition: border-left-color 0.3s ease;
   transition: border-left-color 0.3s ease;
 }
-.skin-black-light .sidebar-menu > li.header,
-.skin-black-light .sidebar-menu > li.header:hover {
+.skin-black-light .sidebar-menu > li.header {
   color: #848484;
   background: #f9fafc;
-  border-left: 3px solid transparent !important;
 }
 .skin-black-light .sidebar-menu > li > a {
   border-left: 3px solid transparent;
+  font-weight: 600;
 }
-.skin-black-light .sidebar-menu > li > a:hover,
+.skin-black-light .sidebar-menu > li:hover > a,
 .skin-black-light .sidebar-menu > li.active > a {
   color: #000000;
   background: #f4f4f5;
